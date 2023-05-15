@@ -8,9 +8,9 @@ const PostList = (props) => {
     <div className='postlist-container'>
         {props.parentPosts.map((post, index) => (
           <div key={index} className='postlistbox'>
-            <p>{post.username}</p>
-            <p>{post.post}</p>
-            <LikeDislikeFeature />
+            <p className='usernameDisplay'><b>{post.username}</b></p>
+            <p className='postListPost'>{post.post}</p>
+            <div>< LikeDislikeFeature /></div>
           </div>
         ))}
     </div>

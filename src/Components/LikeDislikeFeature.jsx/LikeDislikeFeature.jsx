@@ -11,7 +11,7 @@ const ColorChangeButtons = () => {
   };
 
   return (
-    <div>
+    <div className='buttonposition'>
       <button
         className={`color-button ${activeButton === 'green' ? 'green' : ''}`}
         onClick={() => handleClick('green')}
