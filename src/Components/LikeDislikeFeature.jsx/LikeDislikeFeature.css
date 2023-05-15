@@ -1,0 +1,17 @@
+
+   .color-button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .green {
+    background-color: green;
+    color: white;
+  }
+  
+  .red {
+    background-color: red;
+    color: white;
+  }
+  
