@@ -5,7 +5,7 @@ import CreatePost from './Components/CreatePost/CreatePost';
 
 function App() {
 
-  const[posts, setPosts] = useState([{username: "TuckerCurtin", post: "Aint it beautiful out today?!"}])
+  const[posts, setPosts] = useState([{username: "GB420", post: "I call upon all nations, to do everything they can, to stop these terrorist killers. Thank you... now watch this drive."}])
 
   function addnewPost(post){
     let tempPosts =[...posts, post];
@@ -22,3 +22,8 @@ function App() {
 }
 
 export default App;
+
+
+// inputs too close, text box input to go multi lines, add pic, add pics, maybe do top bottom like button 
+// header needs to be bigger and wider, 
+// feed page and a most liked page

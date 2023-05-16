@@ -5,17 +5,20 @@
     width: auto;
     margin-bottom: 13px;
     padding: 21px;
-    border: 9px solid rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    background-color: beige;
+    background-color: rgb(219, 213, 213);
     margin-top: 1%;
+    border-radius: 8px;
 }
   
 .usernamebox {
     display: flex;
     margin-bottom: 10px;
+    left: -4px;
+    position: relative;
   }
   
 .usernameinputBox {

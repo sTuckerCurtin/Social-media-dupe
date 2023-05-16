@@ -35,7 +35,7 @@ const CreatePost = (props) => {
             <input className='usernameinputBox' type="string" value={username} onChange={(event) => setUsername((event.target.value))}/>
             </div>
             <div className='postbox'>
-            <label><h3>Post</h3></label>
+            <label><h3>Post </h3></label>
             <input className='postinput' type="string" value={post} onChange={(event) => setPost(event.target.value)}/>
             </div>
             <button className='postbutton' type='submit'>Post</button>
